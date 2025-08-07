@@ -106,7 +106,7 @@ export default function Home() {
               </p>
 
               <div className="mt-8 flex items-center justify-center gap-4">
-                <a href="https://www.bengalbet.com/m/home" target="_blank" rel="noreferrer">
+                <a href="https://seo201.bengalgov.com/register.html" target="_blank" rel="noreferrer">
                   <button className="btn-glow bg-gradient-to-r from-yellow-400 to-orange-500 text-black px-6 py-3 rounded-lg font-semibold shadow-lg">
                     👉 Play Here
                   </button>
@@ -135,7 +135,7 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {/* Card 1 - Slots */}
               <a
-                href="https://www.bengalbet.com/m/home"
+                href="https://seo201.bengalgov.com/register.html"
                 target="_blank"
                 rel="noopener noreferrer sponsored"
                 className="block relative bg-gray-800 rounded-xl p-4 shadow-xl transform hover:-translate-y-1 transition"
@@ -158,7 +158,7 @@ export default function Home() {
 
               {/* Card 2 - Live Casino */}
               <a
-                href="https://www.bengalbet.com/m/home"
+                href="https://seo201.bengalgov.com/register.html"
                 target="_blank"
                 rel="noopener noreferrer sponsored"
                 className="block relative bg-gray-800 rounded-xl p-4 shadow-xl transform hover:-translate-y-1 transition"
@@ -181,7 +181,7 @@ export default function Home() {
 
               {/* Card 3 - Cricket Betting */}
               <a
-                href="https://www.bengalbet.com/m/home"
+                href="https://seo201.bengalgov.com/register.html"
                 target="_blank"
                 rel="noopener noreferrer sponsored"
                 className="block relative bg-gray-800 rounded-xl p-4 shadow-xl transform hover:-translate-y-1 transition"

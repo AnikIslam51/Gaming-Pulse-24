@@ -19,7 +19,7 @@ const faqList = [
       <>
         Sites like{" "}
         <a
-          href="https://www.benglabet.com"
+          href="https://seo201.bengalgov.com/register.html"
           target="_blank"
           rel="noopener noreferrer"
           className="text-yellow-400 underline hover:text-yellow-300"
@@ -28,7 +28,7 @@ const faqList = [
         </a>{" "}
         and{" "}
         <a
-          href="https://www.bengalgov.com"
+          href="https://seo201.bengalgov.com/register.html"
           target="_blank"
           rel="noopener noreferrer"
           className="text-yellow-400 underline hover:text-yellow-300"
@@ -41,7 +41,7 @@ const faqList = [
     a_bn: (
       <>
         <a
-          href="https://www.benglabet.com"
+          href="https://seo201.bengalgov.com/register.html"
           target="_blank"
           rel="noopener noreferrer"
           className="text-yellow-300 underline hover:text-yellow-200"
@@ -50,7 +50,7 @@ const faqList = [
         </a>{" "}
         এবং{" "}
         <a
-          href="https://www.bengalgov.com"
+          href="https://seo201.bengalgov.com/register.html"
           target="_blank"
           rel="noopener noreferrer"
           className="text-yellow-300 underline hover:text-yellow-200"
