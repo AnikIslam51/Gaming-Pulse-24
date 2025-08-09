@@ -3,47 +3,6 @@ import Head from "next/head";
 import FaqAccordion from "../components/FaqAccordion";
 
 export default function Home() {
-  // JSON-LD (FAQ) kept minimal here — component already renders the visible bilingual FAQ.
-  const faqJsonForSchema = [
-    {
-      question: "How can I start online betting in Bangladesh using bKash or Nagad?",
-      answer:
-        "Register at a trusted online betting site that accepts bKash or Nagad, verify your account, choose your payment method, and deposit to start playing. Look for sites that show clear payment instructions and offer secure transactions.",
-    },
-    {
-      question: "Which is the best betting site in BD for real money gambling?",
-      answer:
-        "Sites like Benglabet.com and Bengalgov.com are widely used for real money gambling in BD; they typically offer sports betting, live casino and slot games, and support fast payments like bKash and Nagad. Always check user reviews and payment reliability before depositing.",
-    },
-    {
-      question: "Can I play slot games, Teen Patti, and cricket betting on a trusted Bangladesh casino site?",
-      answer:
-        "Yes — many trusted Bangladesh casino sites and mobile apps host slot games, Teen Patti, and cricket betting. They let you play on mobile/desktop and support local payment methods, so you can deposit and withdraw easily.",
-    },
-    {
-      question: "How do I get a free bonus on an online casino without deposit in Bangladesh?",
-      answer:
-        "Search for platforms advertising a 'no deposit bonus' or 'free bonus' for new sign-ups. Usually you must register and verify your account to claim the bonus. Read wagering requirements carefully before withdrawing winnings.",
-    },
-    {
-      question: "Is it possible to join Bangladesh lottery or lucky draw through a mobile betting app?",
-      answer:
-        "Yes, some mobile betting apps list local lottery or lucky draw options. These provide ticket purchases, instant results, and secure payments (bKash/Nagad) — check the app's legitimacy and terms before participating.",
-    },
-  ];
-
-  function generateJsonLd() {
-    return {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      mainEntity: faqJsonForSchema.map((f) => ({
-        "@type": "Question",
-        name: f.question,
-        acceptedAnswer: { "@type": "Answer", text: f.answer },
-      })),
-    };
-  }
-
   return (
     <>
       <Head>
@@ -57,11 +16,6 @@ export default function Home() {
           property="og:description"
           content="Online casino, slot games, and sports betting in Bangladesh. Trusted payments with bKash & Nagad."
         />
-        {/* JSON-LD for SEO (English Q/A) */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(generateJsonLd()) }}
-        />
       </Head>
 
       <div className="min-h-screen bg-gray-900 text-gray-100 antialiased">
@@ -72,20 +26,11 @@ export default function Home() {
               <div className="text-yellow-400 font-bold text-lg">🎲 GamingPulse24</div>
               <span className="text-xs text-gray-400">Play & Win</span>
             </div>
-
             <nav className="hidden md:flex gap-6 text-gray-300">
-              <a className="hover:text-yellow-400" href="#">
-                Home
-              </a>
-              <a className="hover:text-yellow-400" href="#">
-                Blog
-              </a>
-              <a className="hover:text-yellow-400" href="#">
-                About
-              </a>
-              <a className="hover:text-yellow-400" href="#">
-                Contact
-              </a>
+              <a className="hover:text-yellow-400" href="#">Home</a>
+              <a className="hover:text-yellow-400" href="#">Blog</a>
+              <a className="hover:text-yellow-400" href="#">About</a>
+              <a className="hover:text-yellow-400" href="#">Contact</a>
             </nav>
           </div>
         </header>
@@ -101,17 +46,14 @@ export default function Home() {
                 Play & Win Real Money Today
               </h1>
               <p className="mt-4 text-gray-300 max-w-2xl mx-auto">
-                Join thousands of Bangladeshi players enjoying online casino, slot games, and sports
-                betting — trusted payments with bKash & Nagad.
+                Join thousands of Bangladeshi players enjoying online casino, slot games, and sports betting — trusted payments with bKash & Nagad.
               </p>
-
               <div className="mt-8 flex items-center justify-center gap-4">
                 <a href="https://seo201.bengalgov.com/register.html" target="_blank" rel="noreferrer">
-                  <button className="btn-glow bg-gradient-to-r from-yellow-400 to-orange-500 text-black px-6 py-3 rounded-lg font-semibold shadow-lg">
+                  <button className="bg-gradient-to-r from-yellow-400 to-orange-500 text-black px-6 py-3 rounded-lg font-semibold shadow-lg">
                     👉 Play Here
                   </button>
                 </a>
-
                 <a href="#why" className="text-sm text-gray-300 underline underline-offset-4">
                   Why choose us?
                 </a>
@@ -121,100 +63,72 @@ export default function Home() {
         </section>
 
         <main className="max-w-6xl mx-auto px-4 py-12">
-          {/* WHY CHOOSE US (SEO-optimized cards with clickable images) */}
+          {/* WHY CHOOSE US */}
           <section id="why" className="mb-14">
-            <h2 className="text-yellow-400 font-bold text-xl mb-4">
-              Why Choose GamingPulse24?
-            </h2>
+            <h2 className="text-yellow-400 font-bold text-xl mb-4">Why Choose GamingPulse24?</h2>
             <p className="text-gray-300 mb-6">
               Discover trusted options for <strong>bd slot game online</strong>, secure
               <strong> casino payment bkash nagad</strong>, and reliable
-              <strong>sports betting Bangladesh</strong> — all in one place.
+              <strong> sports betting Bangladesh</strong> — all in one place.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              {/* Card 1 - Slots */}
               <a
                 href="https://seo201.bengalgov.com/register.html"
                 target="_blank"
                 rel="noopener noreferrer sponsored"
-                className="block relative bg-gray-800 rounded-xl p-4 shadow-xl transform hover:-translate-y-1 transition"
-                aria-label="BD slot game online - Exciting Slot Games"
+                className="block bg-gray-800 rounded-xl p-4 shadow-xl hover:-translate-y-1 transition"
               >
-                <img
-                  src="/casino1.jpg"
-                  alt="bd slot game online - JILI slot and PG Soft" 
-                  className="rounded-md w-full h-40 object-cover mb-4"
-                  loading="lazy"
-                />
+                <img src="/casino1.jpg" alt="bd slot game online" className="rounded-md w-full h-40 object-cover mb-4" loading="lazy" />
                 <h3 className="text-lg font-semibold text-yellow-300 mb-2">
                   BD Slot Game Online — Exciting Slot Games
                 </h3>
                 <p className="text-gray-300 text-sm">
-                  Play top slot titles (JILI, PG Soft) and try popular <strong>slot game</strong>
-                  experiences with secure <em>casino payment via bKash & Nagad</em>.
+                  Play top slot titles (JILI, PG Soft) with secure <em>casino payment via bKash & Nagad</em>.
                 </p>
               </a>
 
-              {/* Card 2 - Live Casino */}
               <a
                 href="https://seo201.bengalgov.com/register.html"
                 target="_blank"
                 rel="noopener noreferrer sponsored"
-                className="block relative bg-gray-800 rounded-xl p-4 shadow-xl transform hover:-translate-y-1 transition"
-                aria-label="Bangladesh casino site - Live Casino & Teen Patti"
+                className="block bg-gray-800 rounded-xl p-4 shadow-xl hover:-translate-y-1 transition"
               >
-                <img
-                  src="/casino2.jpg"
-                  alt="Bangladesh casino site - live casino tables and Teen Patti"
-                  className="rounded-md w-full h-40 object-cover mb-4"
-                  loading="lazy"
-                />
+                <img src="/casino2.jpg" alt="Bangladesh casino site" className="rounded-md w-full h-40 object-cover mb-4" loading="lazy" />
                 <h3 className="text-lg font-semibold text-yellow-300 mb-2">
                   Bangladesh Casino Site — Live Casino & Teen Patti
                 </h3>
                 <p className="text-gray-300 text-sm">
-                  Join trusted live tables, Teen Patti and casino games — enjoy real
-                  dealer action and fast withdrawals with local payment methods.
+                  Join trusted live tables and casino games with fast withdrawals.
                 </p>
               </a>
 
-              {/* Card 3 - Cricket Betting */}
               <a
                 href="https://seo201.bengalgov.com/register.html"
                 target="_blank"
                 rel="noopener noreferrer sponsored"
-                className="block relative bg-gray-800 rounded-xl p-4 shadow-xl transform hover:-translate-y-1 transition"
-                aria-label="Cricket betting Bangladesh - sports betting and live odds"
+                className="block bg-gray-800 rounded-xl p-4 shadow-xl hover:-translate-y-1 transition"
               >
-                <img
-                  src="/casino3.jpg"
-                  alt="cricket betting Bangladesh - sports betting and live odds"
-                  className="rounded-md w-full h-40 object-cover mb-4"
-                  loading="lazy"
-                />
+                <img src="/casino3.jpg" alt="cricket betting Bangladesh" className="rounded-md w-full h-40 object-cover mb-4" loading="lazy" />
                 <h3 className="text-lg font-semibold text-yellow-300 mb-2">
                   Cricket Betting Bangladesh — Trusted Sports Betting
                 </h3>
                 <p className="text-gray-300 text-sm">
-                  Bet on cricket and other sports with live odds. We highlight trusted
-                  <strong> sports betting Bangladesh</strong> options and regular free bonus offers.
+                  Bet on cricket and other sports with live odds and free bonus offers.
                 </p>
               </a>
             </div>
           </section>
 
-
           {/* Trusted Payment */}
           <section className="mb-14">
             <h3 className="text-yellow-300 font-semibold mb-3">Trusted Payment Methods</h3>
             <p className="text-gray-300">
-              We accept bKash, Nagad & more. Fast deposits, quick withdrawals, and secure
-              transactions.
+              We accept bKash, Nagad & more. Fast deposits, quick withdrawals, and secure transactions.
             </p>
           </section>
 
-          {/* FAQ Accordion (imported component) */}
+          {/* FAQ Section */}
           <FaqAccordion />
         </main>
 
