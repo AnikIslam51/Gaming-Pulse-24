@@ -39,3 +39,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Ignore large media/video files
+*.mkv
+*.mp4
+*.zip
+*.rar
+*.exe
