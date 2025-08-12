@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 import FaqAccordion from "../components/FaqAccordion";
 
 export default function Home() {
@@ -70,10 +71,10 @@ export default function Home() {
               <span className="text-xs text-gray-400">Play & Win</span>
             </div>
             <nav className="hidden md:flex gap-6 text-gray-300">
-              <a className="hover:text-yellow-400" href="/">Home</a>
-              <a className="hover:text-yellow-400" href="/blog">Blog</a>
-              <a className="hover:text-yellow-400" href="#">About</a>
-              <a className="hover:text-yellow-400" href="#">Contact</a>
+              <Link className="hover:text-yellow-400" href="/">Home</Link>
+              <Link className="hover:text-yellow-400" href="/blog">Blog</Link>
+              <Link className="hover:text-yellow-400" href="#">About</Link>
+              <Link className="hover:text-yellow-400" href="#">Contact</Link>
             </nav>
           </div>
         </header>
