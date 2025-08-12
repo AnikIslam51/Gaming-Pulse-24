@@ -1,53 +1,46 @@
 // pages/blog/index.js
 import Head from "next/head";
 import Link from "next/link";
-import post1 from "./post1";
+import post1 from "../../posts/post1";
 
 const posts = [post1];
 
-export default function BlogIndex() {
+export default function BlogPage() {
   return (
     <>
       <Head>
-        <title>GamingPulse24 Blog — অনলাইন বেটিং ও ক্যাসিনো টিপস</title>
+        <title>GamingPulse24 Blog — Casino & Betting Tips in Bangladesh</title>
         <meta
           name="description"
-          content="বাংলাদেশে অনলাইন বেটিং, ক্যাসিনো, স্লট গেম ও ক্রিকেট বেটিং সম্পর্কিত টিপস এবং গাইড। bKash/Nagad পেমেন্ট সমর্থিত সাইট নিয়ে রিভিউ।"
-        />
-        <meta
-          name="keywords"
-          content="অনলাইন বেটিং বাংলাদেশ, সেরা বেটিং সাইট, casino payment bkash nagad, cricket betting Bangladesh, bd slot game online"
+          content="Read the latest tips, guides, and news about online casino, slot games, and sports betting in Bangladesh. Stay updated with GamingPulse24 Blog."
         />
       </Head>
 
-      <main className="min-h-screen bg-gray-900 text-gray-100 px-4 py-12">
+      <div className="min-h-screen bg-gray-900 text-gray-100 px-4 py-12">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-3xl font-bold text-yellow-400 mb-4">GamingPulse24 Blog</h1>
-          <p className="text-gray-300 mb-8">
-            এখানে পাবেন বাংলাদেশে অনলাইন বেটিং, ক্যাসিনো, স্লট গেম ও স্পোর্টস বেটিং সম্পর্কিত
-            টিপস, গাইড এবং আপডেট।
-          </p>
+          <h1 className="text-3xl font-bold text-yellow-400 mb-6">
+            GamingPulse24 Blog
+          </h1>
 
-          <div className="grid gap-6">
-            {posts.map((p) => (
-              <article key={p.id} className="bg-gray-800 p-6 rounded-lg shadow">
-                <h2 className="text-2xl font-semibold text-yellow-300 mb-2">
-                  <Link href={`/blog/${p.id}`}>
-                    <a>{p.title}</a>
-                  </Link>
-                </h2>
-
-                <p className="text-gray-400 text-sm mb-3">{p.date}</p>
-                <p className="text-gray-300 mb-4">{p.excerpt}</p>
-
-                <Link href={`/blog/${p.id}`}>
-                  <a className="text-yellow-400 font-medium hover:underline">বিস্তারিত পড়ুন →</a>
-                </Link>
-              </article>
-            ))}
-          </div>
+          {posts.map((post, index) => (
+            <div
+              key={index}
+              className="bg-gray-800 rounded-lg p-6 mb-6 shadow-md hover:shadow-lg transition"
+            >
+              <h2 className="text-xl font-semibold text-yellow-300 mb-2">
+                {post.title}
+              </h2>
+              <p className="text-gray-300 mb-4">{post.excerpt}</p>
+              <Link
+                href={`/blog/${post.slug}`}
+                className="text-yellow-400 hover:text-yellow-300 font-semibold"
+              >
+                Read More →
+              </Link>
+            </div>
+          ))}
         </div>
-      </main>
+      </div>
     </>
   );
 }
