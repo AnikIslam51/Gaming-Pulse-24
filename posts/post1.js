@@ -1,6 +1,7 @@
-// pages/blog/post1.js
+// posts/post1.js
 export default {
-  id: "post1",
+  id: "post1", 
+  slug: "post1", 
   title: "বাংলাদেশে অনলাইন বেটিং: নিরাপদে খেলার উপায় ও টিপস",
   date: "2025-08-11",
   excerpt:
@@ -25,4 +26,3 @@ export default {
     <p>ট্যাগস: <strong>অনলাইন বেটিং, বাংলাদেশ, cricket betting Bangladesh, bd slot game online</strong></p>
   `,
 };
-
