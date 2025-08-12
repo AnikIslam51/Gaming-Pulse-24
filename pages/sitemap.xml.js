@@ -1,5 +1,5 @@
 // pages/sitemap.xml.js
-import post1 from "./posts/post1";
+import post1 from "../posts/post1";
 
 function buildSiteMap(posts) {
   const baseUrl = "https://gamingpulse24.com"; 
