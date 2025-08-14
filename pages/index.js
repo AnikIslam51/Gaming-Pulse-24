@@ -1,8 +1,11 @@
+import { useState } from "react";
 import Head from 'next/head';
 import Link from 'next/link';
 import FaqAccordion from "../components/FaqAccordion";
 
 export default function Home() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   const faqJsonForSchema = [
     {
       question: "How can I start online betting in Bangladesh using bKash or Nagad?",
@@ -66,17 +69,38 @@ export default function Home() {
         {/* Header */}
         <header className="bg-black/70 sticky top-0 z-30">
           <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+            {/* Logo */}
             <div className="flex items-center gap-3">
               <div className="text-yellow-400 font-bold text-lg">🎲 GamingPulse24</div>
               <span className="text-xs text-gray-400">Play & Win</span>
             </div>
+
+            {/* Desktop Menu */}
             <nav className="hidden md:flex gap-6 text-gray-300">
               <Link className="hover:text-yellow-400" href="/">Home</Link>
               <Link className="hover:text-yellow-400" href="/blog">Blog</Link>
               <Link className="hover:text-yellow-400" href="#">About</Link>
               <Link className="hover:text-yellow-400" href="#">Contact</Link>
             </nav>
+
+            {/* Mobile Menu Button */}
+            <button
+              className="md:hidden text-gray-300 focus:outline-none"
+              onClick={() => setMenuOpen(!menuOpen)}
+            >
+              ☰
+            </button>
           </div>
+
+          {/* Mobile Menu */}
+          {menuOpen && (
+            <div className="md:hidden bg-black/90 text-gray-300 px-4 py-3 space-y-2">
+              <Link className="block hover:text-yellow-400" href="/" onClick={() => setMenuOpen(false)}>Home</Link>
+              <Link className="block hover:text-yellow-400" href="/blog" onClick={() => setMenuOpen(false)}>Blog</Link>
+              <Link className="block hover:text-yellow-400" href="#" onClick={() => setMenuOpen(false)}>About</Link>
+              <Link className="block hover:text-yellow-400" href="#" onClick={() => setMenuOpen(false)}>Contact</Link>
+            </div>
+          )}
         </header>
 
         {/* Hero */}
