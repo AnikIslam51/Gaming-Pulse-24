@@ -32,7 +32,7 @@ export default function BlogPage() {
             <nav className="hidden md:flex gap-6 text-gray-300">
               <Link className="hover:text-yellow-400" href="/">Home</Link>
               <Link className="hover:text-yellow-400" href="/blog">Blog</Link>
-              <Link className="hover:text-yellow-400" href="#">About</Link>
+              <Link className="hover:text-yellow-400" href="/about">About</Link>
               <Link className="hover:text-yellow-400" href="#">Contact</Link>
             </nav>
 
