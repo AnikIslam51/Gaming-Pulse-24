@@ -97,7 +97,7 @@ export default function Home() {
             <div className="md:hidden bg-black/90 text-gray-300 px-4 py-3 space-y-2">
               <Link className="block hover:text-yellow-400" href="/" onClick={() => setMenuOpen(false)}>Home</Link>
               <Link className="block hover:text-yellow-400" href="/blog" onClick={() => setMenuOpen(false)}>Blog</Link>
-              <Link className="block hover:text-yellow-400" href="#" onClick={() => setMenuOpen(false)}>About</Link>
+              <Link className="block hover:text-yellow-400" href="/about" onClick={() => setMenuOpen(false)}>About</Link>
               <Link className="block hover:text-yellow-400" href="#" onClick={() => setMenuOpen(false)}>Contact</Link>
             </div>
           )}
