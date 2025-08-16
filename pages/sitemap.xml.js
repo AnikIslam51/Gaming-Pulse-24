@@ -1,5 +1,7 @@
 // pages/sitemap.xml.js
 import post1 from "../posts/post1";
+import post2 from "../posts/post2";
+import post3 from "../posts/post3";
 
 function buildSiteMap(posts) {
   const baseUrl = "https://gamingpulse24.com"; 
@@ -36,7 +38,7 @@ ${postUrls}
 }
 
 export async function getServerSideProps({ res }) {
-  const posts = [post1];
+  const posts = [post1, post2, post3];
   const sitemap = buildSiteMap(posts);
 
   res.setHeader("Content-Type", "application/xml");
