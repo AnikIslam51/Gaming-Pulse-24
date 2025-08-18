@@ -1,4 +1,6 @@
 // pages/sitemap.xml.js
+import post8 from "../posts/post8";
+import post7 from "../posts/post7";
 import post6 from "../posts/post6";
 import post5 from "../posts/post5";
 import post4 from "../posts/post4";
@@ -41,7 +43,7 @@ ${postUrls}
 }
 
 export async function getServerSideProps({ res }) {
-  const posts = [,post6, post5, post4, post3, post2, post1];
+  const posts = [post8, post7, post6, post5, post4, post3, post2, post1];
   const sitemap = buildSiteMap(posts);
 
   res.setHeader("Content-Type", "application/xml");
