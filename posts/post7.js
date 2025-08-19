@@ -4,7 +4,7 @@ const post7 = {
   title: "Top 10 Betting Sites in Bangladesh – September 2025",
   excerpt:
     "Discover the top 10 betting sites in Bangladesh for September 2025. From cricket betting to online casinos, find the best platforms with bKash and Nagad support. BengalBet takes the #1 spot for local players.",
-  author: "Alex Amin",
+  author: "Admin",
   date: "2025-08-19",
   content: `
 <h2>Top 10 Betting Sites in Bangladesh – September 2025</h2>
