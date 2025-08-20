@@ -1,4 +1,6 @@
 // posts/index.js
+import post12 from "./post12";
+import post11 from "./post11";
 import post10 from "./post10";
 import post9 from "./post9";
 import post8 from "./post8";
@@ -10,6 +12,6 @@ import post1 from "./post1";
 import post2 from "./post2";
 import post3 from "./post3";
 
-const allPosts = [post10, post9, post8, post7, post6, post5, post4, post3, post2, post1];
+const allPosts = [post12, post11, post10, post9, post8, post7, post6, post5, post4, post3, post2, post1];
 
 export default allPosts;
