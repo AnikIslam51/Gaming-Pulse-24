@@ -156,6 +156,14 @@ const post13 = {
     <p style="display:none">
       sports betting systems, sports betting strategy 2025, value betting, Kelly Criterion, contrarian betting, fade the public, arbitrage betting, Martingale Fibonacci Paroli, responsible bankroll management, sports betting Bangladesh
     </p>
+
+    <!-- ✅ Related Posts section at the bottom -->
+    <h3>Related Posts You May Like</h3>
+    <ul>
+      <li><a href="/blog/online-sports-betting-bangladesh-2025">Online Sports Betting in Bangladesh 2025 – Best Guide for Beginners</a></li>
+      <li><a href="/blog/strategies-to-win-millions-online-betting">Strategies to Win Millions in Online Betting – Expert Guide 2025</a></li>
+      <li><a href="/blog/sports-betting-bangladesh-2025">Sports Betting in Bangladesh – Cricket, Football & Live Odds Guide 2025</a></li>
+    </ul>
   `,
 };
 
