@@ -103,6 +103,14 @@ const post2 = {
         you can maximize your enjoyment while staying secure. Always play responsibly and stay updated 
         with the latest tips from the GamingPulse24 Blog.
       </p>
+
+      <!-- ✅ Related Posts section at the very bottom -->
+      <h3>Related Posts You May Like</h3>
+      <ul>
+        <li><a href="/blog/poker-bet-strategies-2025">Poker Bet Strategies 2025 – How to Win Real Money in Online Poker</a></li>
+        <li><a href="/blog/strategies-to-win-millions-online-betting">Strategies to Win Millions in Online Betting – Expert Guide 2025</a></li>
+        <li><a href="/blog/online-gambling-rise-bangladesh">Online Gambling on the Rise in Bangladesh – BD Lottery, Casino & Sports Betting Explained</a></li>
+      </ul>
     `,
   };
   

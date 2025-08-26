@@ -113,6 +113,14 @@ const post5 = {
       bKash Nagad ক্যাসিনো পেমেন্ট, লাইভ ক্যাসিনো শো, সেরা বেটিং সাইট বাংলাদেশ,
       ফ্রি বোনাস ক্যাসিনো BD, teen patti, slot game BD, real money gambling Bangladesh
     </p>
+
+    <!-- ✅ Related Posts section at the very bottom -->
+    <h3>Related Posts You May Like</h3>
+    <ul>
+      <li><a href="/blog/online-casino-bangladesh">বাংলাদেশে অনলাইন ক্যাসিনো খেলার সেরা গাইড</a></li>
+      <li><a href="/blog/online-betting-history-bangladesh">বাংলাদেশের অনলাইন বেটিং ইতিহাস: অতীত থেকে বর্তমান</a>
+      </li>
+    </ul>
   `,
 };
 

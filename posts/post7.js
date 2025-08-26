@@ -78,6 +78,14 @@ const post7 = {
   online betting with bKash Nagad Rocket, cricket betting Bangladesh, safe betting Bangladesh, 
   top 10 betting sites BD 2025, online casino Bangladesh
 </p>
+
+<!-- ✅ Related Posts section at the bottom -->
+    <h3>Related Posts You May Like</h3>
+    <ul>
+      <li><a href="/blog/online-sports-betting-bangladesh-2025">Online Sports Betting in Bangladesh 2025 – Best Guide for Beginners</a></li>
+      <li><a href="/blog/strategies-to-win-millions-online-betting">Strategies to Win Millions in Online Betting – Expert Guide 2025</a></li>
+      <li><a href="/blog/sports-betting-bangladesh-2025">Sports Betting in Bangladesh – Cricket, Football & Live Odds Guide 2025</a></li>
+    </ul>
   `,
 };
 

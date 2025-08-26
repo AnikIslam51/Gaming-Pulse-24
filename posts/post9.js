@@ -115,6 +115,16 @@ const post9 = {
       and explore the thrill of online sports betting today.
     </p>
 
+    <!-- Internal Links Section -->
+    <div style="margin-top:30px;padding:18px;border-top:2px solid #eee;">
+      <h3>Related Articles</h3>
+      <ul>
+        <li><a href="/blog/poker-bet-strategies-2025">Poker Bet Strategies 2025 – Smart Tips to Win More</a></li>
+        <li><a href="/blog/play-online-casino-bangladesh-guide">Best Online Casino Bangladesh 2025 – Play & Win</a></li>
+        <li><a href="/blog/best-100-tk-betting-sites-bangladesh-2025">Slot Games Strategy Bangladesh 2025 – Win Big with Small Bets</a></li>
+      </ul>
+    </div>
+
     <!-- SEO hidden keywords -->
     <p style="display:none">
       sports betting Bangladesh 2025, cricket betting BD, football betting Bangladesh, BengalBet online, 

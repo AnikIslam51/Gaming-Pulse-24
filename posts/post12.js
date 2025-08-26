@@ -32,7 +32,7 @@ const post12 = {
 <p>One of the secrets to winning millions is money management. Never bet your entire balance in one game. A good rule is to bet only 5% of your total bankroll at a time. This keeps you in the game longer and protects you from big losses.</p>
 
 <!-- ✅second contextual link here -->
-<p>If you’re curious about how betting strategies impact real money play, read our <a href="/blog/sports-betting-bangladesh-guide">Sports Betting in Bangladesh – Cricket, Football & Live Odds Guide 2025</a>.</p>
+<p>If you’re curious about how betting strategies impact real money play, read our <a href="/blog/sports-betting-bangladesh-2025">Sports Betting in Bangladesh – Cricket, Football & Live Odds Guide 2025</a>.</p>
 
 <h2>4. Research Before Betting</h2>
 <p>Winning in sports betting depends heavily on research:</p>

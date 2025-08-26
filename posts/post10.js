@@ -1,12 +1,12 @@
 // posts/post10.js
 const post10 = {
-    slug: "sports-betting-bangladesh-2025",
-    title: "Sports Betting in Bangladesh – Cricket, Football & Live Odds Guide 2025",
-    excerpt:
-      "Sports betting guide in Bangladesh 2025 — Cricket, Football, Live Odds, Online Casino & Payment Methods explained. Play Now for the best platforms and real-time sports action.",
-    author: "Admin",
-    date: "2025-08-20",
-    content: `
+  slug: "sports-betting-bangladesh-2025",
+  title: "Sports Betting in Bangladesh – Cricket, Football & Live Odds Guide 2025",
+  excerpt:
+    "Sports betting guide in Bangladesh 2025 — Cricket, Football, Live Odds, Online Casino & Payment Methods explained. Play Now for the best platforms and real-time sports action.",
+  author: "Admin",
+  date: "2025-08-20",
+  content: `
       <p>
         Sports betting in Bangladesh is witnessing a massive surge in popularity in 2025, especially among cricket and football enthusiasts. With the rise of online betting sites, live casino platforms, and real-time odds systems, Bangladeshi players are now experiencing a whole new level of entertainment and excitement.
       </p>
@@ -176,6 +176,9 @@ const post10 = {
       <p>
         If you're ready to test your luck and experience the thrill of live sports betting, <a href="https://seo201.bengalbet.com/register.html" target="_blank" rel="nofollow sponsored noopener noreferrer">Play Now</a> and enjoy the best betting platforms tailored for Bangladesh.
       </p>
+
+      <hr />
+      <p><strong>Read next:</strong> <a href="/blog/top-10-betting-sites-bangladesh-september-2025">Top 10 Online Casinos in Bangladesh (2025)</a></p>
     `,
 };
 

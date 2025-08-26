@@ -166,6 +166,14 @@ const post8 = {
       100 Tk betting site in BD, low deposit betting Bangladesh, BengalBet Bangladesh, bKash Nagad Rocket betting, 
       online betting Bangladesh 2025, cricket betting low stakes, best 100 taka betting site BD, fast BDT withdrawal betting
     </p>
+
+    <!-- ✅ Related Posts section at the very bottom -->
+    <h3>Related Posts You May Like</h3>
+    <ul>
+      <li><a href="/blog/poker-bet-strategies-2025">Poker Bet Strategies 2025 – How to Win Real Money in Online Poker</a></li>
+      <li><a href="/blog/strategies-to-win-millions-online-betting">Strategies to Win Millions in Online Betting – Expert Guide 2025</a></li>
+      <li><a href="/blog/online-gambling-rise-bangladesh">Online Gambling on the Rise in Bangladesh – BD Lottery, Casino & Sports Betting Explained</a></li>
+    </ul>
   `,
 };
 
