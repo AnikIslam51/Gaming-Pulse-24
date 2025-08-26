@@ -3,7 +3,12 @@ import { Html, Head, Main, NextScript } from "next/document";
 export default function Document() {
   return (
     <Html lang="en">
-      <Head />
+      <Head>
+        <link
+          rel="canonical"
+          href="https://gamingpulse24.com/"
+        />
+      </Head>
       <body>
         <Main />
         <NextScript />
