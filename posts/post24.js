@@ -4,7 +4,7 @@ const post24 = {
   title: "Betting Picks and Predictions 2025: Smart Strategies for Cricket, Casino & Slots in Bangladesh",
   excerpt:
     "Master betting picks and predictions in Bangladesh 2025. Learn how to win real money with cricket betting, slot games, bKash payments, free bonuses, and expert strategies for online gambling success.",
-  author: "Gambling Guide Team",
+  author: "Admin",
   date: "2025-09-05",
   content: `
     <p>

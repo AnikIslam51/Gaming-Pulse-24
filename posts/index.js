@@ -1,4 +1,6 @@
 // posts/index.js
+import post27 from "./post27";
+import post26 from "./post26";
 import post25 from "./post25";
 import post24 from "./post24";
 import post23 from "./post23";
@@ -25,6 +27,6 @@ import post1 from "./post1";
 import post2 from "./post2";
 import post3 from "./post3";
 
-const allPosts = [post25, post24, post23, post22, post21, post20, post19, post18, post17, post16, post15, post14, post13, post12, post11, post10, post9, post8, post7, post6, post5, post4, post3, post2, post1];
+const allPosts = [post27, post26, post25, post24, post23, post22, post21, post20, post19, post18, post17, post16, post15, post14, post13, post12, post11, post10, post9, post8, post7, post6, post5, post4, post3, post2, post1];
 
 export default allPosts;

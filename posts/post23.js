@@ -1,10 +1,10 @@
 // posts/post23.js
 const post23 = {
   slug: "bangladesh-vs-netherlands-2nd-t20i-2025-highlights-betting",
-  title: "Bangladesh vs Netherlands 2nd T20I 2025: Tigers Seal Series with 9-Wicket Win – Watch Highlights & Bet Now",
+  title: "Bangladesh vs Netherlands 2nd T20I 2025: Tigers Seal Series with 9-Wicket Win",
   excerpt:
     "Bangladesh crushes Netherlands by 9 wickets in 2nd T20I 2025. Watch official highlights, get match analysis, and discover how to bet on cricket in Bangladesh with real money sites, free bonuses & live odds.",
-  author: "Cricket Desk",
+  author: "Admin",
   date: "2025-09-02",
   content: `
     <p>

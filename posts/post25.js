@@ -4,7 +4,7 @@ const post25 = {
   title: "What Are Regular Time, Injury Time and Extra Time in Football Betting?",
   excerpt:
     "Learn how Regular Time, Injury Time & Extra Time affect football betting in Bangladesh. Master match result rules, live odds, and win smarter with bKash payments and free bonuses in 2025.",
-  author: "Sports Betting Guide",
+  author: "Admin",
   date: "2025-09-07",
   content: `
     <p>

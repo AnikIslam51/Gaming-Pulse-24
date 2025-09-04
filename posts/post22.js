@@ -4,7 +4,7 @@ const post22 = {
   title: "Bangladesh vs Netherlands T20I 2025: Tigers Crush Dutch by 8 Wickets",
   excerpt:
     "Bangladesh dominates Netherlands in 1st T20I 2025: 8-wicket win, Taskin Ahmed 4/28, Litton Das 54*. Watch match highlights & discover top cricket betting sites in Bangladesh with real money bonuses.",
-  author: "Cricket Desk",
+  author: "Admin",
   date: "2025-08-30",
   content: `
     <p>
